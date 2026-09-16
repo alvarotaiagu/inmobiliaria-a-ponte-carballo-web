@@ -1,16 +1,16 @@
 {
- "fecha": "2026-09-16T16:27:56.512Z",
- "base": "https://alvarotaiagu.github.io/inmobiliaria-a-ponte-carballo-web/",
+ "fecha": "2026-09-16T16:32:55.815Z",
+ "base": "http://127.0.0.1:8991/",
  "resultados": [
   {
    "prueba": "la ruta se dibuja (no aparece de golpe)",
    "ok": true,
-   "detalle": "stroke-dashoffset 672/1000 a los 900 ms"
+   "detalle": "stroke-dashoffset 704/1000 a los 900 ms"
   },
   {
    "prueba": "los pines van saliendo por el camino",
    "ok": true,
-   "detalle": "5/8 pines a los 900 ms"
+   "detalle": "4/8 pines a los 900 ms"
   },
   {
    "prueba": "la ruta termina dibujada entera",
@@ -38,9 +38,19 @@
    "detalle": ""
   },
   {
+   "prueba": "la cabecera y la barra de ruta son opacas (no se transparenta lo de detrás)",
+   "ok": true,
+   "detalle": "alfa cabecera 1 · barra 1"
+  },
+  {
+   "prueba": "el punto activo de la ruta queda por encima de todo",
+   "ok": true,
+   "detalle": "en ese punto está: ruta-punto"
+  },
+  {
    "prueba": "las fichas de servicios se apilan (sticky) y ninguna se transparenta al salir",
    "ok": true,
-   "detalle": "142px/op1 · 371px/op1 · 956px/op0"
+   "detalle": "142px/op1 · 371px/op1 · 922px/op1"
   },
   {
    "prueba": "la cámara avanza de municipio en municipio con el scroll",
@@ -280,7 +290,7 @@
   {
    "prueba": "la página pesa menos de 2,5 MB",
    "ok": true,
-   "detalle": "637 KB transferidos"
+   "detalle": "693 KB transferidos"
   }
  ]
 }

@@ -104,6 +104,32 @@ const irA = async (page, sel, margen = 120) => {
 
     await page.screenshot({ path: path.join(CAPS, 'portada-1440.png') });
 
+    /* la cabecera tiene que ser opaca: con la banda de foto o la franja oscura
+       de municipios pasando por detras, un fondo translucido las transparenta y
+       el punto de la ruta parece quedarse debajo de la seccion */
+    await irA(page, '#zonas');
+    await page.waitForTimeout(800);
+    const cab = await page.evaluate(() => {
+      const alfa = el => {
+        const c = getComputedStyle(el).backgroundColor;
+        const m = c.match(/[\d.]+/g) || [];
+        return c.startsWith('color(') ? (m.length > 3 ? +m[3] : 1) : (m.length > 3 ? +m[3] : 1);
+      };
+      const punto = document.querySelector('[data-ruta-marcas] li.activo .ruta-punto');
+      const r = punto.getBoundingClientRect();
+      const encima = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+      return {
+        aTop: alfa(document.querySelector('.top')),
+        aRuta: alfa(document.querySelector('.top-ruta')),
+        encima: (encima.className || '').toString(),
+        filtro: getComputedStyle(document.querySelector('.top')).backdropFilter
+      };
+    });
+    ok('la cabecera y la barra de ruta son opacas (no se transparenta lo de detrás)',
+      cab.aTop === 1 && cab.aRuta === 1, 'alfa cabecera ' + cab.aTop + ' · barra ' + cab.aRuta);
+    ok('el punto activo de la ruta queda por encima de todo',
+      /ruta-punto/.test(cab.encima), 'en ese punto está: ' + cab.encima);
+
     /* la pila de servicios: se apilan, pero ninguna se transparenta (si lo
        hiciera se leeria a traves de ella la ficha de debajo) */
     await irA(page, '#servicios');

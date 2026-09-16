@@ -122,10 +122,12 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 /* ---------- cabecera ---------- */
 
+/* La cabecera va OPACA a propósito: con fondo translúcido, la banda de foto y
+   la franja de municipios se transparentaban al pasar por detrás y el punto de
+   la ruta parecía quedarse debajo de la sección. */
 .top {
   position: fixed; inset: 0 0 auto; z-index: 60;
-  background: color-mix(in srgb, var(--crema) 90%, transparent);
-  backdrop-filter: blur(9px);
+  background: var(--crema);
   border-bottom: 1px solid var(--linea);
 }
 .top-fila {
@@ -161,7 +163,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 /* la barra de ruta: dónde va la cámara sobre el mapa */
 .top-ruta {
   border-top: 1px solid var(--linea);
-  background: color-mix(in srgb, var(--crema-2) 72%, transparent);
+  background: var(--crema-2);
 }
 .top-ruta-fila {
   width: min(100% - var(--margen) * 2, 1480px); margin-inline: auto;
