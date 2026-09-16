@@ -1,16 +1,16 @@
 {
- "fecha": "2026-09-16T16:22:40.269Z",
- "base": "http://127.0.0.1:8991/",
+ "fecha": "2026-09-16T16:27:56.512Z",
+ "base": "https://alvarotaiagu.github.io/inmobiliaria-a-ponte-carballo-web/",
  "resultados": [
   {
    "prueba": "la ruta se dibuja (no aparece de golpe)",
    "ok": true,
-   "detalle": "stroke-dashoffset 709/1000 a los 900 ms"
+   "detalle": "stroke-dashoffset 672/1000 a los 900 ms"
   },
   {
    "prueba": "los pines van saliendo por el camino",
    "ok": true,
-   "detalle": "4/8 pines a los 900 ms"
+   "detalle": "5/8 pines a los 900 ms"
   },
   {
    "prueba": "la ruta termina dibujada entera",
@@ -280,7 +280,7 @@
   {
    "prueba": "la página pesa menos de 2,5 MB",
    "ok": true,
-   "detalle": "693 KB transferidos"
+   "detalle": "637 KB transferidos"
   }
  ]
 }
