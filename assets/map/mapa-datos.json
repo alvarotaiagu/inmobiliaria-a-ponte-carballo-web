@@ -1,0 +1,83 @@
+{
+ "viewBox": [
+  0,
+  0,
+  1600,
+  900
+ ],
+ "unidadesPorKm": 11.682,
+ "municipios": [
+  {
+   "slug": "malpica",
+   "nombre": "Malpica",
+   "x": 231.0,
+   "y": 391.1,
+   "t": 0.0,
+   "lat": 43.323,
+   "lon": -8.811
+  },
+  {
+   "slug": "laracha",
+   "nombre": "A Laracha",
+   "x": 325.8,
+   "y": 177.0,
+   "t": 0.1377,
+   "lat": 43.25,
+   "lon": -8.586
+  },
+  {
+   "slug": "carballo",
+   "nombre": "Carballo",
+   "x": 373.8,
+   "y": 276.9,
+   "t": 0.2028,
+   "lat": 43.213,
+   "lon": -8.691
+  },
+  {
+   "slug": "coristanco",
+   "nombre": "Coristanco",
+   "x": 393.3,
+   "y": 323.5,
+   "t": 0.2325,
+   "lat": 43.198,
+   "lon": -8.74
+  },
+  {
+   "slug": "ponteceso",
+   "nombre": "Ponteceso",
+   "x": 334.9,
+   "y": 474.8,
+   "t": 0.3279,
+   "lat": 43.243,
+   "lon": -8.899
+  },
+  {
+   "slug": "zas",
+   "nombre": "Zas",
+   "x": 515.4,
+   "y": 492.0,
+   "t": 0.4345,
+   "lat": 43.104,
+   "lon": -8.917
+  },
+  {
+   "slug": "santa-comba",
+   "nombre": "Santa Comba",
+   "x": 605.1,
+   "y": 388.2,
+   "t": 0.5151,
+   "lat": 43.035,
+   "lon": -8.808
+  },
+  {
+   "slug": "sanxenxo",
+   "nombre": "Sanxenxo",
+   "x": 1429.9,
+   "y": 387.3,
+   "t": 1.0,
+   "lat": 42.4,
+   "lon": -8.807
+  }
+ ]
+}

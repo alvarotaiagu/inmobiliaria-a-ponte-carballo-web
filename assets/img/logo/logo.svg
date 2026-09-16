@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 4 752 300" role="img" aria-label="Inmobiliaria A Ponte">
+  <path d="M 150.0 40.0 H 250.0 V 140.0 H 150.0 Z M 170.0 60.0 V 120.0 H 230.0 V 60.0 Z" fill="#E8622C"/>
+  <g fill="none" stroke="#2A2A28" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 50.0 50.0 A 40.0 40.0 0 1 1 50.0 130.0 A 40.0 40.0 0 1 1 50.0 50.0 Z"/>
+    <path d="M 90.0 40.0 V 140.0"/>
+    <path d="M 160.0 40.0 V 190.0"/>
+    <path d="M 326.0 50.0 A 40.0 40.0 0 1 1 326.0 130.0 A 40.0 40.0 0 1 1 326.0 50.0 Z"/>
+    <path d="M 412.0 140.0 V 90.0 A 40.0 40.0 0 0 1 492.0 90.0 V 140.0"/>
+    <path d="M 558.0 18.0 V 114.0 A 26 26 0 0 0 584.0 140.0"/>
+    <path d="M 524.0 40.0 H 592.0"/>
+    <path d="M 638.0 90.0 H 718.0"/>
+    <path d="M 718.0 90.0 A 40.0 40.0 0 1 0 706.3 118.3"/>
+  </g>
+  <g transform="translate(224.2 226.0) scale(0.620)" fill="none" stroke="#2A2A28" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 4.0 0 V 40.0"/>
+    <path d="M 25.0 40.0 V 0"/>
+    <path d="M 25.0 0 L 47.0 40.0"/>
+    <path d="M 47.0 40.0 V 0"/>
+    <path d="M 68.0 40.0 V 0 L 83.0 24.8 L 98.0 0 V 40.0"/>
+    <path d="M 134.0 4.0 A 15 16 0 1 1 134.0 36.0 A 15 16 0 1 1 134.0 4.0 Z"/>
+    <path d="M 170.0 0 V 40.0"/>
+    <path d="M 170.0 0 H 184.0 A 10 10 0 0 1 184.0 20.0 H 170.0"/>
+    <path d="M 170.0 20.0 H 186.0 A 10 10 0 0 1 186.0 40.0 H 170.0"/>
+    <path d="M 215.0 0 V 40.0"/>
+    <path d="M 236.0 0 V 40.0 H 258.0"/>
+    <path d="M 279.0 0 V 40.0"/>
+    <path d="M 298.0 40.0 L 313.0 0 L 328.0 40.0"/>
+    <path d="M 304.0 27.2 H 322.0"/>
+    <path d="M 349.0 0 V 40.0"/>
+    <path d="M 349.0 0 H 363.0 A 10 10 0 0 1 363.0 20.0 H 349.0"/>
+    <path d="M 360.0 20.0 L 377.0 40.0"/>
+    <path d="M 398.0 0 V 40.0"/>
+    <path d="M 417.0 40.0 L 432.0 0 L 447.0 40.0"/>
+    <path d="M 423.0 27.2 H 441.0"/>
+  </g>
+</svg>

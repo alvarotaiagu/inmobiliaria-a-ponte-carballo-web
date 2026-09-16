@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-42 -48 200 250" role="img" aria-label="A Ponte">
+  <path d="M 0 0 H 100 V 100 H 0 Z M 20.0 20.0 V 80.0 H 80.0 V 20.0 Z" fill="#E8622C"/>
+  <path d="M 10.0 0 V 150" fill="none" stroke="#FAF8F4" stroke-width="20" stroke-linecap="round"/>
+</svg>

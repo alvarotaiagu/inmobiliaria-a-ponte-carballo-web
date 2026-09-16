@@ -1,0 +1,15 @@
+{
+  "name": "Inmobiliaria A Ponte · Carballo",
+  "short_name": "A Ponte",
+  "description": "Venta, alquiler y búsqueda personalizada de inmuebles en ocho municipios, de Malpica a Sanxenxo.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#FAF8F4",
+  "lang": "es",
+  "icons": [
+    { "src": "assets/img/logo/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/logo/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/img/logo/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

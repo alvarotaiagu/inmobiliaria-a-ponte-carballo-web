@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 4 752 210" role="img" aria-label="Inmobiliaria A Ponte">
+  <path d="M 150.0 40.0 H 250.0 V 140.0 H 150.0 Z M 170.0 60.0 V 120.0 H 230.0 V 60.0 Z" fill="#E8622C"/>
+  <g fill="none" stroke="#2A2A28" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 50.0 50.0 A 40.0 40.0 0 1 1 50.0 130.0 A 40.0 40.0 0 1 1 50.0 50.0 Z"/>
+    <path d="M 90.0 40.0 V 140.0"/>
+    <path d="M 160.0 40.0 V 190.0"/>
+    <path d="M 326.0 50.0 A 40.0 40.0 0 1 1 326.0 130.0 A 40.0 40.0 0 1 1 326.0 50.0 Z"/>
+    <path d="M 412.0 140.0 V 90.0 A 40.0 40.0 0 0 1 492.0 90.0 V 140.0"/>
+    <path d="M 558.0 18.0 V 114.0 A 26 26 0 0 0 584.0 140.0"/>
+    <path d="M 524.0 40.0 H 592.0"/>
+    <path d="M 638.0 90.0 H 718.0"/>
+    <path d="M 718.0 90.0 A 40.0 40.0 0 1 0 706.3 118.3"/>
+  </g>
+</svg>

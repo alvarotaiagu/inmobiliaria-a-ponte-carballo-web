@@ -1,0 +1,286 @@
+{
+ "fecha": "2026-09-16T16:22:40.269Z",
+ "base": "http://127.0.0.1:8991/",
+ "resultados": [
+  {
+   "prueba": "la ruta se dibuja (no aparece de golpe)",
+   "ok": true,
+   "detalle": "stroke-dashoffset 709/1000 a los 900 ms"
+  },
+  {
+   "prueba": "los pines van saliendo por el camino",
+   "ok": true,
+   "detalle": "4/8 pines a los 900 ms"
+  },
+  {
+   "prueba": "la ruta termina dibujada entera",
+   "ok": true,
+   "detalle": "offset final 0.0"
+  },
+  {
+   "prueba": "los 8 pines acaban visibles",
+   "ok": true,
+   "detalle": "8/8"
+  },
+  {
+   "prueba": "los 8 pines caen dentro de la banda del mapa",
+   "ok": true,
+   "detalle": "8/8 dentro del viewport"
+  },
+  {
+   "prueba": "el titular se lee completo tras el char-reveal",
+   "ok": true,
+   "detalle": "De Malpica a Sanxenxo, conocemos cada rincónDe Malpica a San"
+  },
+  {
+   "prueba": "el wordmark no se solapa con rótulos del mapa",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "las fichas de servicios se apilan (sticky) y ninguna se transparenta al salir",
+   "ok": true,
+   "detalle": "142px/op1 · 371px/op1 · 956px/op0"
+  },
+  {
+   "prueba": "la cámara avanza de municipio en municipio con el scroll",
+   "ok": true,
+   "detalle": "Malpica -> Sanxenxo (8/8, 7 ya recorridos)"
+  },
+  {
+   "prueba": "el visor de zonas encuadra el municipio que se está leyendo",
+   "ok": true,
+   "detalle": "viewBox 1040.0 107.3 560.0 560.0"
+  },
+  {
+   "prueba": "la ruta del visor llega hasta el final en la última zona",
+   "ok": true,
+   "detalle": "dashoffset 0"
+  },
+  {
+   "prueba": "sin errores de consola en el recorrido",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "la hoja sustituye a los ejemplos cuando responde",
+   "ok": true,
+   "detalle": "2 tarjetas: Bajo con patio / Nave con oficina"
+  },
+  {
+   "prueba": "las filas marcadas \"oculto\" no se publican",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el filtro se reconstruye con las poblaciones de la hoja",
+   "ok": true,
+   "detalle": "Todas 2 · Zas 1 · Santa Comba 1"
+  },
+  {
+   "prueba": "un enlace normal de Google Drive se convierte en imagen mostrable",
+   "ok": true,
+   "detalle": "https://drive.google.com/thumbnail?id=ABCDEFGHIJKLMNO&sz=w1200"
+  },
+  {
+   "prueba": "la web dice de dónde vienen los datos",
+   "ok": true,
+   "detalle": "2 inmuebles · datos en vivo desde la hoja de la agencia"
+  },
+  {
+   "prueba": "si la hoja no contesta, se ven los inmuebles de ejemplo",
+   "ok": true,
+   "detalle": "6 tarjetas de ejemplo"
+  },
+  {
+   "prueba": "cada ejemplo lleva su cinta de aviso",
+   "ok": true,
+   "detalle": "6/6 cintas"
+  },
+  {
+   "prueba": "todos los campos de los ejemplos van marcados uno a uno",
+   "ok": true,
+   "detalle": "30 campos marcados"
+  },
+  {
+   "prueba": "el visitante no ve ningún error",
+   "ok": true,
+   "detalle": "6 inmuebles de ejemplo · la hoja de la agencia todavía no está conectada"
+  },
+  {
+   "prueba": "el filtro sigue funcionando con los ejemplos",
+   "ok": true,
+   "detalle": "6 botones"
+  },
+  {
+   "prueba": "al filtrar por población solo quedan sus inmuebles",
+   "ok": true,
+   "detalle": "2 visibles: Carballo, Carballo"
+  },
+  {
+   "prueba": "pulsar un pin del mapa lleva al listado filtrado por esa población",
+   "ok": true,
+   "detalle": "filtro Ponteceso, 1 ficha, sección a 95px"
+  },
+  {
+   "prueba": "sin errores de consola propios con la hoja caída",
+   "ok": true,
+   "detalle": "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+  },
+  {
+   "prueba": "el aviso de cookies aparece",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el botón de cerrar el aviso funciona de verdad",
+   "ok": true,
+   "detalle": "display: none"
+  },
+  {
+   "prueba": "y no vuelve a salir en la siguiente visita",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin pulsar, no hay iframe de Google ni petición a Google Maps",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "al pulsar se carga el mapa embebido, sin clave de API",
+   "ok": true,
+   "detalle": "https://www.google.com/maps?q=Inmobiliaria%20A%20Ponte%2C%20R%C3%BAa%20Per%C3%BA%2C%202%2C%20151"
+  },
+  {
+   "prueba": "el horario resalta el día de hoy",
+   "ok": true,
+   "detalle": "Miércoles10:00–14:00 · 17:00–20:00"
+  },
+  {
+   "prueba": "el formulario no simula un envío que no existe",
+   "ok": true,
+   "detalle": "Falta un paso Su búsqueda está bien rellenada, pero este formulario todavía no t"
+  },
+  {
+   "prueba": "sin errores de consola en contacto",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "a 400 px el trazado se sustituye por la lista de poblaciones",
+   "ok": true,
+   "detalle": "8 poblaciones en lista"
+  },
+  {
+   "prueba": "a 400 px no hay desbordamiento horizontal",
+   "ok": true,
+   "detalle": "0 px"
+  },
+  {
+   "prueba": "a 400 px aparece el menú de hamburguesa",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "el menú móvil abre",
+   "ok": true,
+   "detalle": "6 enlaces"
+  },
+  {
+   "prueba": "nada se sale de la pantalla a 400 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "sin errores de consola a 400 px",
+   "ok": true,
+   "detalle": ""
+  },
+  {
+   "prueba": "con movimiento reducido la ruta ya está dibujada",
+   "ok": true,
+   "detalle": "offset 0"
+  },
+  {
+   "prueba": "con movimiento reducido los pines ya están en su sitio",
+   "ok": true,
+   "detalle": "8/8"
+  },
+  {
+   "prueba": "con movimiento reducido el titular se lee entero",
+   "ok": true,
+   "detalle": "De Malpica a Sanxenxo, conocemos cada rincón De "
+  },
+  {
+   "prueba": "con movimiento reducido no se activa el scroll suave",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin GSAP la página sigue completa y legible",
+   "ok": true,
+   "detalle": "ruta 0, 8 pines"
+  },
+  {
+   "prueba": "sin GSAP los inmuebles se siguen viendo",
+   "ok": true,
+   "detalle": "6 tarjetas"
+  },
+  {
+   "prueba": "sin GSAP el visor de zonas sigue montado",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "sin JavaScript se lee el contenido y el mapa está en el HTML",
+   "ok": true,
+   "detalle": "7050 caracteres de texto"
+  },
+  {
+   "prueba": "sin JavaScript no se cuela el aviso de cookies",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "todas las imágenes llevan texto alternativo",
+   "ok": true,
+   "detalle": "0 sin alt"
+  },
+  {
+   "prueba": "hay un único h1",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "los pines del mapa se pueden usar con teclado",
+   "ok": true,
+   "detalle": "8/8"
+  },
+  {
+   "prueba": "el mapa tiene título accesible",
+   "ok": true,
+   "detalle": null
+  },
+  {
+   "prueba": "no hay id repetidos al clonar el mapa",
+   "ok": true,
+   "detalle": "0 repetidos"
+  },
+  {
+   "prueba": "cada campo del formulario tiene su etiqueta",
+   "ok": true,
+   "detalle": "8 etiquetas para 8 campos"
+  },
+  {
+   "prueba": "no hay tareas largas mientras se recorre la página",
+   "ok": true,
+   "detalle": "ninguna"
+  },
+  {
+   "prueba": "la página pesa menos de 2,5 MB",
+   "ok": true,
+   "detalle": "693 KB transferidos"
+  }
+ ]
+}

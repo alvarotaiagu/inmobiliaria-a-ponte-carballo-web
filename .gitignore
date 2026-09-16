@@ -1,0 +1,5 @@
+scripts/photos_src/
+scripts/contact_sheets/
+scripts/_*
+.DS_Store
+Thumbs.db
